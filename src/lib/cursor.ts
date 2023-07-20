@@ -1,5 +1,5 @@
 import { onMount } from 'svelte';
-import '../cursor.css';
+import '../styles/cursor.css';
 import gsap from 'gsap';
 
 /**
