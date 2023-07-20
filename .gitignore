@@ -1,3 +1,4 @@
 node_modules/
 examples/
 .svelte-kit/
+.DS_STORE
