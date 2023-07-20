@@ -3,14 +3,6 @@
   initCustomCursor();
 </script>
 
-<main>
-  <nav class="menu">
-    <a class="menu__item" href="#">Tathata</a>
-    <a class="menu__item" href="#">Upaya</a>
-    <a class="menu__item" href="#">Dhyana</a>
-    <a class="menu__item" href="#">Manadala</a>
-  </nav>
-</main>
 <svg class="cursor" width="140" height="140" viewBox="0 0 140 140">
   <defs>
     <filter
