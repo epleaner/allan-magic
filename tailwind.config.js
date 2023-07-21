@@ -7,6 +7,9 @@ export default {
         'grid-gutter': '2.75rem',
         'page-gutter': '5.5rem',
       },
+      colors: {
+        brand: { blue: '#14778C', teal: '#BBDCE3' },
+      },
     },
   },
   plugins: [require('daisyui')],
