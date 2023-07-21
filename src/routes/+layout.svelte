@@ -8,7 +8,7 @@
 <Cursor />
 
 <svelte:component this={Scroll}>
-  <main class="px-[90px] w-screen h-screen">
+  <main class="px-page-gutter w-screen h-screen grid grid-cols-12">
     <Nav />
     <slot />
   </main>

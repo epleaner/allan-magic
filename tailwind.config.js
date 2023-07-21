@@ -2,7 +2,12 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        'grid-gutter': '2.75rem',
+        'page-gutter': '5.5rem',
+      },
+    },
   },
   plugins: [require('daisyui')],
 };
