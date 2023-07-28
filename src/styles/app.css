@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply bg-brand-blue;
+    @apply bg-brand-charcoal;
   }
 }

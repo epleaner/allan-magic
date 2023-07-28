@@ -8,7 +8,7 @@ export default {
         'page-gutter': '5.5rem',
       },
       colors: {
-        brand: { blue: '#14778C', teal: '#BBDCE3' },
+        brand: { blue: '#14778C', teal: '#BBDCE3', charcoal: '#3F3D3E' },
       },
     },
   },

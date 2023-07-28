@@ -1,3 +1,7 @@
+<script>
+  import headshot from '$lib/assets/headshot.jpeg';
+</script>
+
 <section
   id="about"
   class="h-screen col-span-12 grid grid-cols-12 mx-page-gutter"
@@ -14,5 +18,11 @@
       knock your socks off!
     </p>
   </main>
-  <aside class="col-span-6" />
+  <aside class="col-span-6 h-full flex items-center">
+    <img
+      class="w-full h-auto rounded-full"
+      alt="The project logo"
+      src={headshot}
+    />
+  </aside>
 </section>
