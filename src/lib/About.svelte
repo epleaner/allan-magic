@@ -4,8 +4,7 @@
 
 <section
   id="about"
-  class="h-screen col-span-12 grid grid-cols-12 mx-page-gutter"
->
+  class="h-screen col-span-12 grid grid-cols-12 mx-page-gutter">
   <main class="col-span-6 h-full flex flex-col justify-center gap-grid-gutter">
     <p class="text-4xl flex items-center text-brand-blue font-bold">
       Al Brandon is a San Francisco-based illusionist who has been amazing
@@ -18,11 +17,11 @@
       knock your socks off!
     </p>
   </main>
-  <aside class="col-span-6 h-full flex items-center">
+  <hr class="col-span-1" />
+  <aside class="col-span-5 h-full flex items-center">
     <img
       class="w-full h-auto rounded-full"
       alt="The project logo"
-      src={headshot}
-    />
+      src={headshot} />
   </aside>
 </section>
