@@ -4,13 +4,12 @@
   onMount(() => {
     var form = document.getElementById('contact-form');
 
-    /**
-     * @param {{ preventDefault: () => void; target: HTMLFormElement; }} event
-     */
     async function handleSubmit(event) {
       event.preventDefault();
       var status = document.getElementById('my-form-status');
       var data = new FormData(event.target);
+      const errorText = 'Oops! There was a problem submitting your form';
+
       fetch(event.target.action, {
         method: 'POST',
         body: data,
@@ -20,7 +19,7 @@
       })
         .then((response) => {
           if (response.ok) {
-            status.innerHTML = 'Thanks for your submission!';
+            status.innerHTML = 'Thanks for getting in touch!';
             form.reset();
           } else {
             response.json().then((data) => {
@@ -29,14 +28,13 @@
                   .map((error) => error['message'])
                   .join(', ');
               } else {
-                status.innerHTML =
-                  'Oops! There was a problem submitting your form';
+                status.innerHTML = errorText;
               }
             });
           }
         })
-        .catch((error) => {
-          status.innerHTML = 'Oops! There was a problem submitting your form';
+        .catch(() => {
+          status.innerHTML = errorText;
         });
     }
     form.addEventListener('submit', handleSubmit);
