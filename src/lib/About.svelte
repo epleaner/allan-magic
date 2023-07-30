@@ -16,6 +16,13 @@
       party or after dinner entertainment, Illusions of the Mind is sure to
       knock your socks off!
     </p>
+    <div>
+      <a href="#contact">
+        <button
+          class="mt-4 rounded-lg border hover:border-brand-teal hover:bg-transparent hover:text-brand-teal transition-colors border-transparent bg-brand-teal text-brand-charcoal p-4 cursor-trigger"
+          id="my-form-button">Book a show</button>
+      </a>
+    </div>
   </main>
   <hr class="col-span-1" />
   <aside class="col-span-5 h-full flex items-center">

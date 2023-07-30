@@ -42,16 +42,26 @@
 </script>
 
 <section id="contact" class="h-screen col-span-12 mx-page-gutter">
-  <div class="w-full h-full flex items-center justify-center">
+  <div class="w-full h-full flex flex-col items-center justify-center gap-4">
+    <h1 class="text-3xl">Contact</h1>
     <form
-      class="flex flex-col"
+      class="w-1/4 flex flex-col gap-4"
       id="contact-form"
       action="https://formspree.io/f/myyqkzze">
-      <label for="email">Email:</label>
-      <input type="email" name="email" />
-      <label for="message">Message:</label>
-      <input type="text" name="message" />
-      <button id="my-form-button">Submit</button>
+      <label class="flex flex-col" for="email"
+        >Name:
+        <input
+          class="mt-2 bg-brand-teal text-brand-charcoal rounded-lg py-2 px-4 focus:outline-none"
+          type="name"
+          name="name" /></label>
+      <label class="flex flex-col" for="message"
+        >Message:
+        <textarea
+          class="mt-2 bg-brand-teal text-brand-charcoal rounded-lg p-4 focus:outline-none"
+          name="message" /></label>
+      <button
+        class="mt-4 rounded-lg border border-brand-teal bg-transparent text-brand-teal transition-colors hover:border-transparent hover:bg-brand-teal hover:text-brand-charcoal p-4 cursor-trigger"
+        id="my-form-button">Send</button>
       <p id="my-form-status" />
     </form>
   </div>

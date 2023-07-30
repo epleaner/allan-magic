@@ -277,7 +277,7 @@ export function initCustomCursor() {
 
   onMount(() => {
     window.__cursor = { x: 0, y: 0 };
-    new Cursor(document.querySelectorAll('.cursor'), 'a');
+    new Cursor(document.querySelectorAll('.cursor'), '.cursor-trigger');
     window.addEventListener(
       'mousemove',
       (ev) => (window.__cursor = getCursorPos(ev))
