@@ -2,11 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Migra';
+  src: url('/fonts/PPMigra-Extrabold.otf');
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Regular.ttf');
+  font-weight: 400;
+}
+
 @layer base {
   html {
-    @apply scroll-smooth;
+    @apply scroll-smooth cursor-none;
   }
   body {
     @apply bg-brand-charcoal;
+  }
+
+  a,
+  .link {
+    @apply text-brand-teal hover:text-brand-blue transition-colors hover:cursor-none;
+  }
+
+  .cursor-trigger {
+    @apply hover:cursor-none;
   }
 }

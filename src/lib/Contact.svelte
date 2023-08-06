@@ -1,4 +1,9 @@
 <script>
+  const imgUrl = new URL(
+    '$lib/assets/landing-illustration.png',
+    import.meta.url
+  ).href;
+  console.log(imgUrl);
   import { onMount } from 'svelte';
 
   onMount(() => {
@@ -41,26 +46,34 @@
   });
 </script>
 
-<section id="contact" class="h-screen col-span-12 mx-page-gutter">
-  <div class="w-full h-full flex flex-col items-center justify-center gap-4">
-    <h1 class="text-3xl">Contact</h1>
+<section
+  id="contact"
+  class={`relative h-screen col-span-12 md:mx-page-gutter bg-no-repeat bg-contain bg-center `}
+  style={`background-image: url(${imgUrl})`}>
+  <div
+    class="z-10 w-full h-full flex flex-col items-center justify-center gap-4">
+    <h1 class="text-7xl text-brand-teal">Contact</h1>
     <form
-      class="w-1/4 flex flex-col gap-4"
+      class="md:w-1/4 flex flex-col gap-4"
       id="contact-form"
       action="https://formspree.io/f/myyqkzze">
-      <label class="flex flex-col" for="email"
+      <label
+        class="text-2xl text-brand-teal flex flex-col hover:cursor-none"
+        for="email"
         >Name:
         <input
-          class="mt-2 bg-brand-teal text-brand-charcoal rounded-lg py-2 px-4 focus:outline-none"
+          class="mt-2 bg-brand-charcoal text-brand-teal rounded-lg py-2 px-4 focus:outline-none hover:cursor-none border border-transparent hover:border-brand-blue transition-colors"
           type="name"
           name="name" /></label>
-      <label class="flex flex-col" for="message"
+      <label
+        class="text-2xl text-brand-teal flex flex-col hover:cursor-none"
+        for="message"
         >Message:
         <textarea
-          class="mt-2 bg-brand-teal text-brand-charcoal rounded-lg p-4 focus:outline-none"
+          class="mt-2 bg-brand-charcoal text-brand-teal rounded-lg p-4 focus:outline-none hover:cursor-none border border-transparent hover:border-brand-blue transition-colors"
           name="message" /></label>
       <button
-        class="mt-4 rounded-lg border border-brand-teal bg-transparent text-brand-teal transition-colors hover:border-transparent hover:bg-brand-teal hover:text-brand-charcoal p-4 cursor-trigger"
+        class="mt-4 rounded-lg transition-colors bg-brand-teal hover:bg-brand-blue hover:text-white text-brand-charcoal p-4 cursor-trigger"
         id="my-form-button">Send</button>
       <p id="my-form-status" />
     </form>

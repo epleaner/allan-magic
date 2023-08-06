@@ -4,16 +4,18 @@
 
 <section
   id="about"
-  class="h-screen col-span-12 grid grid-cols-12 mx-page-gutter">
-  <main class="col-span-6 h-full flex flex-col justify-center gap-grid-gutter">
-    <p class="text-4xl flex items-center text-brand-blue font-bold">
+  class="h-screen col-span-12 grid grid-cols-12 md:mx-page-gutter mx-page-gutter-mobile">
+  <main
+    class="col-span-6 h-full flex flex-col justify-center gap-grid-gutter-mobile md:gap-grid-gutter">
+    <p
+      class="text-4xl flex items-center text-brand-beige font-bold leading-[50px]">
       Al Brandon is a San Francisco-based illusionist who has been amazing
       audiences with performances on different continents for over twenty-five
       years.
     </p>
-    <p class="text-4xl flex items-center">
+    <p class="text-2xl leading-[45px] font-montserrat text-brand-beige">
       Whether a corporate event, fundraiser, big or small celebration, cocktail
-      party or after dinner entertainment, Illusions of the Mind is sure to
+      party or after dinner entertainment, <b>Illusions of the Mind</b> is sure to
       knock your socks off!
     </p>
     <div>
@@ -24,7 +26,7 @@
       </a>
     </div>
   </main>
-  <hr class="col-span-1" />
+  <hr class="col-span-1 border-none" />
   <aside class="col-span-5 h-full flex items-center">
     <img
       class="w-full h-auto rounded-full"

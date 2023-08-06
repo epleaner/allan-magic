@@ -8,7 +8,8 @@
 <Cursor />
 
 <svelte:component this={Scroll}>
-  <main class="w-screen min-h-screen grid grid-cols-12 bg-brand-charcoal">
+  <main
+    class="font-migra w-screen min-h-screen grid grid-cols-12 bg-brand-charcoal">
     <Nav />
     <slot />
   </main>
