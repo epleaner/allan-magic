@@ -10,12 +10,12 @@
     class="col-start-11 col-span-2 flex justify-end gap--x-grid-gutter-mobile md:gap-x-grid-gutter max-md:hidden">
     <a
       href="#about"
-      class="font-syne cursor-trigger text-3xl text-brand-teal hover:text-brand-charcoal transition-colors"
-      >About</a>
+      class="font-syne cursor-trigger text-2xl text-brand-teal hover:text-brand-charcoal transition-colors"
+      >ABOUT</a>
     <a
       href="#contact"
-      class="font-syne cursor-trigger text-3xl text-brand-teal hover:text-brand-charcoal transition-colors"
-      >Contact</a>
+      class="font-syne cursor-trigger text-2xl text-brand-teal hover:text-brand-charcoal transition-colors"
+      >CONTACT</a>
   </span>
   <div class="dropdown md:hidden col-start-11 col-span-2 flex justify-end">
     <button
@@ -37,14 +37,14 @@
       <li>
         <a
           href="#about"
-          class="font-syne cursor-trigger justify-end text-3xl text-brand-teal hover:text-white transition-colors"
-          >About</a>
+          class="font-syne cursor-trigger justify-end text-2xl text-brand-teal hover:text-white transition-colors"
+          >ABOUT</a>
       </li>
       <li>
         <a
           href="#contact"
-          class="font-syne cursor-trigger justify-end text-3xl text-brand-teal hover:text-white transition-colors"
-          >Contact</a>
+          class="font-syne cursor-trigger justify-end text-2xl text-brand-teal hover:text-white transition-colors"
+          >CONTACT</a>
       </li>
     </ul>
   </div>
