@@ -26,7 +26,7 @@
       knock your socks off!
     </p>
     <div class="max-sm:w-full max-sm:flex max-sm:justify-center">
-      <a href="#contact ">
+      <a href="#contact">
         <button
           class="mt-4 rounded-lg border hover:border-brand-teal hover:bg-transparent hover:text-brand-teal transition-colors border-transparent bg-brand-teal text-brand-charcoal p-4 cursor-trigger"
           id="my-form-button">Book a show</button>
