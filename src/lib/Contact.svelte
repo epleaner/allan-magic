@@ -58,22 +58,32 @@
       action="https://formspree.io/f/myyqkzze">
       <label
         class="text-2xl text-brand-teal flex flex-col hover:cursor-none"
-        for="email"
-        >Name:
+        for="name"
+        >Name
         <input
           class="mt-2 bg-brand-teal text-brand-charcoal rounded-lg py-2 px-4 focus:outline-none hover:cursor-none border border-transparent hover:border-brand-blue transition-colors"
-          type="name"
+          type="text"
           name="name" /></label>
       <label
         class="text-2xl text-brand-teal flex flex-col hover:cursor-none"
+        for="email"
+        >Email
+        <input
+          class="mt-2 bg-brand-teal text-brand-charcoal rounded-lg py-2 px-4 focus:outline-none hover:cursor-none border border-transparent hover:border-brand-blue transition-colors"
+          type="email"
+          name="email" /></label>
+      <label
+        class="text-2xl text-brand-teal flex flex-col hover:cursor-none"
         for="message"
-        >Message:
+        >Message
         <textarea
           class="mt-2 bg-brand-teal text-brand-charcoal rounded-lg p-4 focus:outline-none hover:cursor-none border border-transparent hover:border-brand-blue transition-colors"
           name="message" /></label>
-      <button
-        class="mt-4 rounded-lg transition-colors bg-brand-teal hover:bg-brand-blue hover:text-white text-brand-charcoal p-4 cursor-trigger"
-        id="my-form-button">Send</button>
+      <div class="flex justify-center">
+        <button
+          class="text-2xl w-[222px] mt-4 rounded-lg border hover:border-brand-teal hover:bg-transparent hover:text-brand-teal transition-colors border-transparent bg-brand-teal text-brand-lightGray p-4 cursor-trigger"
+          id="my-form-button">Send</button>
+      </div>
       <p id="my-form-status" />
     </form>
   </div>

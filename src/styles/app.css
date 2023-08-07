@@ -7,17 +7,22 @@
   src: url('/fonts/PPMigra-Extrabold.otf');
 }
 @font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat-Regular.ttf');
+  font-family: 'Syne';
+  src: url('/fonts/Syne.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Rubik Glitch';
+  src: url('/fonts/RubikGlitch-Regular.ttf');
   font-weight: 400;
 }
 
 @layer base {
   html {
-    @apply scroll-smooth cursor-none bg-brand-charcoal;
+    @apply scroll-smooth cursor-none bg-brand-lightGray;
   }
   body {
-    @apply bg-brand-charcoal;
+    @apply bg-brand-lightGray;
   }
 
   a,
@@ -27,5 +32,9 @@
 
   .cursor-trigger {
     @apply hover:cursor-none;
+  }
+
+  button {
+    @apply font-syne;
   }
 }

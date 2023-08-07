@@ -1,25 +1,25 @@
 <nav
-  class="items-center absolute w-full grid grid-cols-12 gap--x-grid-gutter-mobile md:gap-x-grid-gutter mt-4 z-10 md:px-page-gutter px-page-gutter-mobile">
+  class="fixed items-center w-full grid grid-cols-12 gap--x-grid-gutter-mobile md:gap-x-grid-gutter py-4 z-10 md:px-page-gutter px-page-gutter-mobile">
   <span class="col-span-10">
     <a
       href="#"
-      class="cursor-trigger text-3xl text-brand-teal hover:text-brand-blue transition-colors"
+      class="cursor-trigger text-3xl text-brand-teal hover:text-brand-charcoal transition-colors"
       >Illusions of the Mind</a>
   </span>
   <span
     class="col-start-11 col-span-2 flex justify-end gap--x-grid-gutter-mobile md:gap-x-grid-gutter max-md:hidden">
     <a
       href="#about"
-      class="cursor-trigger text-3xl text-brand-teal hover:text-brand-blue transition-colors"
+      class="font-syne cursor-trigger text-3xl text-brand-teal hover:text-brand-charcoal transition-colors"
       >About</a>
     <a
       href="#contact"
-      class="cursor-trigger text-3xl text-brand-teal hover:text-brand-blue transition-colors"
+      class="font-syne cursor-trigger text-3xl text-brand-teal hover:text-brand-charcoal transition-colors"
       >Contact</a>
   </span>
   <div class="dropdown md:hidden col-start-11 col-span-2 flex justify-end">
     <button
-      class="btn btn-square btn-ghost m-1 text-brand-teal hover:text-brand-blue transition-colors">
+      class="btn btn-square btn-ghost m-1 text-brand-teal hover:text-brand-charcoal transition-colors">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -33,17 +33,17 @@
     </button>
     <ul
       tabindex="0"
-      class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box mt-16">
+      class="dropdown-content z-[1] p-6 shadow bg-brand-charcoal rounded-box mt-16">
       <li>
         <a
           href="#about"
-          class="cursor-trigger justify-end text-3xl text-brand-teal hover:text-brand-blue transition-colors"
+          class="font-syne cursor-trigger justify-end text-3xl text-brand-teal hover:text-white transition-colors"
           >About</a>
       </li>
       <li>
         <a
           href="#contact"
-          class="cursor-trigger justify-end text-3xl text-brand-teal hover:text-brand-blue transition-colors"
+          class="font-syne cursor-trigger justify-end text-3xl text-brand-teal hover:text-white transition-colors"
           >Contact</a>
       </li>
     </ul>

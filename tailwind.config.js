@@ -19,13 +19,15 @@ export default {
         brand: {
           blue: '#14778C',
           teal: '#BBDCE3',
+          lightGray: '#656465',
           charcoal: '#3F3D3E',
           beige: '#EEEBE3',
         },
       },
       fontFamily: {
         sans: ['Migra', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
+        syne: ['Syne', 'sans-serif'],
+        glitch: ['Rubik Glitch', 'sans-serif'],
       },
     },
   },

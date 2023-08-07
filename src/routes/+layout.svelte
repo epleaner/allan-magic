@@ -8,7 +8,7 @@
 <Cursor />
 
 <main
-  class="font-migra w-screen min-h-screen grid grid-cols-12 bg-brand-charcoal">
+  class="font-migra w-screen min-h-screen grid grid-cols-12 bg-brand-lightGray">
   <Nav />
   <slot />
 </main>
