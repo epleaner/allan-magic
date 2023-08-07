@@ -48,7 +48,7 @@
 
 <section
   id="contact"
-  class={`relative h-screen col-span-12 md:mx-page-gutter bg-no-repeat bg-contain bg-center `}
+  class={`relative min-h-screen col-span-12 md:mx-page-gutter bg-no-repeat bg-contain bg-center `}
   style={`background-image: url(${imgUrl})`}>
   <div
     class="z-10 w-full h-full flex flex-col items-center justify-center gap-4">

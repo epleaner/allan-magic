@@ -1,4 +1,4 @@
-<section class="relative h-screen col-span-12 grid grid-cols-12">
+<section class="relative min-h-screen col-span-12 grid grid-cols-12">
   <main
     class="md:ml-page-gutter mx-page-gutter-mobile col-span-12 h-full flex items-center">
     <p
