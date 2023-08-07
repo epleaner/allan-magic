@@ -14,7 +14,7 @@
 
 @layer base {
   html {
-    @apply scroll-smooth cursor-none;
+    @apply scroll-smooth cursor-none bg-brand-charcoal;
   }
   body {
     @apply bg-brand-charcoal;

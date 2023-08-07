@@ -56,7 +56,6 @@
   class="scroll-container"
   id="scroll-container"
   data-scroll-container
-  bind:this={reference}
->
+  bind:this={reference}>
   <div bind:this={childrenRef}><slot /></div>
 </div>

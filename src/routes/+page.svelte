@@ -6,6 +6,6 @@
 </script>
 
 <Landing />
-<Testimonials />
 <About />
+<Testimonials />
 <Contact />
