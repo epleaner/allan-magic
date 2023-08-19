@@ -8,9 +8,8 @@
       >someone else’s mind</span> and know exactly what they are thinking...
   </LandingSection>
   <LandingSection>
-    Inviting you to experience... <br />The amazing.
+    Inviting you to experience... <br />The amazing. The surreal.<br />
     <span class="font-glitch">The unexpected.</span>
-    <br />The surreal. The impossible.
   </LandingSection>
   <LandingSection>
     Twisting the rules of reality... <br />Stretching possibilities...<br />
