@@ -23,7 +23,7 @@
       class="max-md:text-center md:text-2xl leading-[35px] md:leading-[50px] font-syne text-brand-charcoal">
       Whether a corporate event, fundraiser, big or small celebration, cocktail
       party or after dinner entertainment, <b class="font-glitch"
-        >Illusions of the Mind</b> is sure to knock your socks off!
+        >Illusions of the Mind</b> will leave you spellbound!
     </p>
     <div class="max-sm:w-full max-sm:flex max-sm:justify-center">
       <a href="#contact">
