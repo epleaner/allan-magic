@@ -1,61 +1,28 @@
 <script>
-  import { onMount } from 'svelte';
+  import { onMount, onDestroy } from 'svelte';
   import 'locomotive-scroll/src/locomotive-scroll.scss';
 
-  //clamp the value to keep skewing smooth
-  const clamp = (
-    /** @type {number} */ value,
-    /** @type {number} */ min,
-    /** @type {number} */ max
-  ) => (value <= min ? min : value >= max ? max : value);
-
-  //Locomotive Scroll Refs
-  let scroll = {
-    cache: 0,
-    current: 0,
-  };
-  /**
-   * @type {HTMLDivElement}
-   */
-  let reference;
-  /**
-   * @type {HTMLDivElement}
-   */
-  let childrenRef;
-
   onMount(async () => {
-    const module = await import('locomotive-scroll');
-    const LocomotiveScroll = module.default;
+    const module = await import('scrollmagic');
+    const ScrollMagic = module.default;
 
-    const scrollElement = new LocomotiveScroll({
-      el: reference,
-      smooth: true,
-      smartphone: {
-        smooth: true,
-      },
-      getDirection: true,
-      getSpeed: true,
-      lerp: 0.1,
-    });
+    const controller = new ScrollMagic.Controller();
+    // const module = await import('locomotive-scroll');
 
-    // scrollElement.on(
-    //   'scroll',
-    //   (/** @type {{ scroll: { y: number; }; }} */ obj) => {
-    //     // Find distance between scroll updates
-    //     scroll.current = obj.scroll.y;
-    //     const distance = scroll.current - scroll.cache;
-    //     scroll.cache = scroll.current;
+    // const scroll = new LocomotiveScroll({
+    //   smooth: true,
+    // });
 
-    //     childrenRef.style.transform = `skewY(${clamp(distance, -10, 10)}deg)`;
-    //   }
-    // );
+    // // Update current index based on Locomotive Scroll's scroll event
+    // scroll.on('scroll', ({ scroll: position }) => {
+    //   console.log(position);
+    //   // const itemHeight = scroll.scroll.content.height / items.length;
+    //   // currentIdx = Math.floor(scroll.y / itemHeight);
+    //   // console.log(scroll.y, itemHeight, currentIdx);
+    // });
   });
 </script>
 
-<div
-  class="scroll-container"
-  id="scroll-container"
-  data-scroll-container
-  bind:this={reference}>
-  <div bind:this={childrenRef}><slot /></div>
+<div>
+  <div><slot /></div>
 </div>

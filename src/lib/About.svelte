@@ -1,14 +1,14 @@
 <script>
+  import Carousel from '$lib/Carousel.svelte';
   import headshot from '$lib/assets/headshot.jpeg';
+  import PageSection from '$lib/shared/PageSection.svelte';
 </script>
 
-<section
-  id="about"
-  class="min-h-screen col-span-12 grid grid-cols-12 md:mx-page-gutter mx-page-gutter-mobile max-md:my-16">
+<PageSection id="about">
   <main
-    class="col-span-12 md:col-span-7 h-full flex flex-col justify-center gap-grid-gutter-mobile md:gap-grid-gutter">
+    class="z-10 relative col-span-12 h-full flex flex-col justify-center gap-grid-gutter-mobile md:gap-grid-gutter">
     <p
-      class="max-md:text-center text-2xl md:text-4xl text-brand-beige font-bold leading-[40px] md:leading-[50px]">
+      class="max-md:text-center text-2xl md:text-4xl text-brand-beige font-bold leading-[40px] md:leading-[50px] max-w-[956px]">
       Al Brandon is a San Francisco-based <span class="font-glitch"
         >illusionist</span> who has been amazing audiences with performances on different
       continents for over twenty-five years.
@@ -20,7 +20,7 @@
         src={headshot} />
     </aside>
     <p
-      class="max-md:text-center md:text-2xl leading-[35px] md:leading-[50px] font-syne text-brand-charcoal">
+      class="max-md:text-center md:text-2xl leading-[35px] md:leading-[50px] font-syne text-brand-charcoal max-w-[666px]">
       Whether a corporate event, fundraiser, big or small celebration, cocktail
       party or after dinner entertainment, <b class="font-glitch"
         >Illusions of the Mind</b> will leave you spellbound!
@@ -33,11 +33,10 @@
       </a>
     </div>
   </main>
-  <hr class="col-span-1 border-none" />
-  <aside class="col-span-4 h-full md:flex items-center hidden">
+  <aside class="absolute h-full md:flex items-center hidden justify-self-end">
     <img
-      class="w-full h-auto rounded-full"
+      class="w-[573px] h-auto rounded-full"
       alt="The project logo"
       src={headshot} />
   </aside>
-</section>
+</PageSection>

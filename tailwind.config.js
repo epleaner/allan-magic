@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       fontSize: {
+        '4xl': '40px',
         '7xl': '4rem',
       },
       lineHeight: {

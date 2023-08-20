@@ -1,5 +1,5 @@
 <nav
-  class="fixed items-center w-full grid grid-cols-12 gap--x-grid-gutter-mobile md:gap-x-grid-gutter py-4 z-10 md:px-page-gutter px-page-gutter-mobile">
+  class="fixed z-50 items-center w-full grid grid-cols-12 gap--x-grid-gutter-mobile md:gap-x-grid-gutter py-4 md:px-page-gutter px-page-gutter-mobile">
   <span class="col-span-10">
     <a
       href="#"

@@ -1,5 +1,16 @@
+<script>
+  import Carousel from './Carousel.svelte';
+
+  const parentItems = [
+    '“I have no idea how he knew the name of a friend I haven’t thought about in twenty six years!”',
+    '"Some things were really impossible… I still can’t believe what happened.”',
+    '“Wow... unbelievable. The group loved it! Every weird, amazing moment.”',
+  ];
+</script>
+
 <section
   class="col-span-12 gap-x-grid-gutter-mobile md:gap-x-grid-gutter bg-brand-beige py-16 xl:px-page-gutter">
+  <!-- <Carousel items={parentItems} /> -->
   <div class="carousel w-full py-16">
     <div id="testimonial1" class="carousel-item relative w-full scroll-mt-96">
       <span
