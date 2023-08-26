@@ -8,7 +8,7 @@
   <main
     class="z-10 relative col-span-12 h-full flex flex-col justify-center gap-grid-gutter-mobile md:gap-grid-gutter">
     <p
-      class="max-md:text-center text-2xl md:text-4xl text-brand-beige font-bold leading-[40px] md:leading-[50px] max-w-[956px]">
+      class="mix-blend-multiply max-md:text-center text-2xl md:text-4xl text-brand-beige font-bold leading-[40px] md:leading-[50px] max-w-[956px]">
       Al Brandon is a San Francisco-based <span class="font-glitch"
         >illusionist</span> who has been amazing audiences with performances on different
       continents for over twenty-five years.

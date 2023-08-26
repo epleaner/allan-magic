@@ -3,7 +3,7 @@
     '$lib/assets/landing-illustration.png',
     import.meta.url
   ).href;
-  console.log(imgUrl);
+
   import { onMount } from 'svelte';
 
   onMount(() => {
@@ -48,7 +48,10 @@
 
 <section
   id="contact"
-  class={`relative h-screen col-span-12 md:mx-page-gutter bg-no-repeat bg-contain bg-center `}>
+  class={`relative h-screen col-span-12 bg-no-repeat bg-center bg-cover`}
+  style={`
+    background-image: url(${imgUrl});
+  `}>
   <div
     class="z-10 w-full h-full flex flex-col items-center justify-center gap-4">
     <h1 class="text-7xl text-brand-teal">Contact</h1>
@@ -61,7 +64,7 @@
         for="name"
         >Name
         <input
-          class="mt-2 bg-brand-teal text-brand-charcoal rounded-lg py-2 px-4 focus:outline-none hover:cursor-none border border-transparent hover:border-brand-blue transition-colors"
+          class="mt-2 font-syne bg-brand-charcoal/75 text-brand-beige rounded-lg py-2 px-4 focus:outline-none hover:cursor-none border border-transparent hover:border-brand-blue transition-colors"
           type="text"
           name="name" /></label>
       <label
@@ -69,7 +72,7 @@
         for="email"
         >Email
         <input
-          class="mt-2 bg-brand-teal text-brand-charcoal rounded-lg py-2 px-4 focus:outline-none hover:cursor-none border border-transparent hover:border-brand-blue transition-colors"
+          class="mt-2 font-syne bg-brand-charcoal/75 text-brand-beige rounded-lg py-2 px-4 focus:outline-none hover:cursor-none border border-transparent hover:border-brand-blue transition-colors"
           type="email"
           name="email" /></label>
       <label
@@ -77,7 +80,7 @@
         for="message"
         >Message
         <textarea
-          class="mt-2 bg-brand-teal text-brand-charcoal rounded-lg p-4 focus:outline-none hover:cursor-none border border-transparent hover:border-brand-blue transition-colors"
+          class="mt-2 font-syne bg-brand-charcoal/75 text-brand-beige rounded-lg p-4 focus:outline-none hover:cursor-none border border-transparent hover:border-brand-blue transition-colors"
           name="message" /></label>
       <div class="flex justify-center">
         <button
