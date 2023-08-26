@@ -20,7 +20,7 @@
         src={headshot} />
     </aside>
     <p
-      class="max-md:text-center md:text-2xl leading-[35px] md:leading-[50px] font-syne text-brand-charcoal max-w-[666px]">
+      class="max-md:text-center md:text-2xl leading-[30px] md:leading-[40px] font-syne text-brand-charcoal max-w-[666px]">
       Whether a corporate event, fundraiser, big or small celebration, cocktail
       party or after dinner entertainment, <b class="font-glitch"
         >Illusions of the Mind</b> will leave you spellbound!
@@ -28,7 +28,7 @@
     <div class="max-sm:w-full max-sm:flex max-sm:justify-center">
       <a href="#contact">
         <button
-          class="mt-4 rounded-lg border hover:border-brand-teal hover:bg-transparent hover:text-brand-teal transition-colors border-transparent bg-brand-teal text-brand-lightGray p-4 cursor-trigger"
+          class="mt-2 uppercase rounded-lg border hover:border-brand-teal hover:bg-transparent hover:text-brand-teal transition-colors border-transparent bg-brand-teal text-brand-lightGray p-4 cursor-trigger"
           id="my-form-button">Book a show</button>
       </a>
     </div>

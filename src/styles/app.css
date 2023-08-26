@@ -27,7 +27,7 @@
 
   a,
   .link {
-    @apply text-brand-teal hover:text-brand-blue transition-colors hover:cursor-none;
+    @apply text-brand-teal transition-colors hover:cursor-none;
   }
 
   .cursor-trigger {
