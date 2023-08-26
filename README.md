@@ -18,4 +18,6 @@ You can preview the production build with `npm run preview`.
 ### todo
 
 NOTES:
-— testimonials: arrows colour teal changing into charcoal, no turquoise + text doesn’t wrap in between arrows on my comp
+— testimonials: text doesn’t wrap in between arrows on my comp
+
+- scroll effects
