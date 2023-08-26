@@ -21,11 +21,11 @@
         class="absolute flex justify-between transform -translate-y-1/2 lg:left-5 lg:right-5 left-0 right-0 top-1/2">
         <a
           href="#testimonial3"
-          class="btn btn-circle btn-ghost cursor-trigger hover:text-brand-teal"
+          class="btn btn-circle btn-ghost cursor-trigger hover:text-brand-charcoal"
           >❮</a>
         <a
           href="#testimonial2"
-          class="btn btn-circle btn-ghost cursor-trigger hover:text-brand-teal"
+          class="btn btn-circle btn-ghost cursor-trigger hover:text-brand-charcoal"
           >❯</a>
       </div>
     </div>
@@ -38,11 +38,11 @@
         class="absolute flex justify-between transform -translate-y-1/2 lg:left-5 lg:right-5 left-0 right-0 top-1/2">
         <a
           href="#testimonial1"
-          class="btn btn-circle btn-ghost cursor-trigger hover:text-brand-teal"
+          class="btn btn-circle btn-ghost cursor-trigger hover:text-brand-charcoal"
           >❮</a>
         <a
           href="#testimonial3"
-          class="btn btn-circle btn-ghost cursor-trigger hover:text-brand-teal"
+          class="btn btn-circle btn-ghost cursor-trigger hover:text-brand-charcoal"
           >❯</a>
       </div>
     </div>
@@ -54,11 +54,11 @@
         class="absolute flex justify-between transform -translate-y-1/2 lg:left-5 lg:right-5 left-0 right-0 top-1/2">
         <a
           href="#testimonial2"
-          class="btn btn-circle btn-ghost cursor-trigger hover:text-brand-teal"
+          class="btn btn-circle btn-ghost cursor-trigger hover:text-brand-charcoal"
           >❮</a>
         <a
           href="#testimonial1"
-          class="btn btn-circle btn-ghost cursor-trigger hover:text-brand-teal"
+          class="btn btn-circle btn-ghost cursor-trigger hover:text-brand-charcoal"
           >❯</a>
       </div>
     </div>
