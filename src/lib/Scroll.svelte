@@ -1,19 +1,17 @@
 <script>
-  import { writable } from 'svelte/store';
+  import { scrollController } from './stores/scrollStore';
 
-  import { onMount, onDestroy } from 'svelte';
   import 'locomotive-scroll/src/locomotive-scroll.scss';
 
-  let controller;
+  import { onMount } from 'svelte';
 
   onMount(async () => {
     const module = await import('scrollmagic');
     const ScrollMagic = module.default;
 
-    controller = new ScrollMagic.Controller();
+    const controller = new ScrollMagic.Controller();
+    scrollController.set(controller);
   });
-
-  export const scrollController = writable(controller);
 </script>
 
 <div>
