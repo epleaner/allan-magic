@@ -3,7 +3,7 @@
   <span class="col-span-10">
     <a
       href="#"
-      class="cursor-trigger text-3xl text-brand-teal hover:text-brand-charcoal transition-colors"
+      class="cursor-trigger text-xl md:text-3xl text-brand-teal hover:text-brand-charcoal transition-colors"
       >Illusions of the Mind</a>
   </span>
   <span
