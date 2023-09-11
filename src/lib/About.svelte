@@ -7,7 +7,7 @@
 <PageSection id="about">
   <main
     class="z-10 relative col-span-12 lg:col-span-8 h-full flex flex-col justify-center gap-grid-gutter-mobile lg:gap-grid-gutter">
-    <ScrollEffect offset={400}>
+    <ScrollEffect offset={200}>
       <p
         class="col-span-12 lg:col-span-8 mix-blend-multiply max-lg:text-center text-2xl lg:text-4xl text-brand-beige font-bold leading-[40px] lg:leading-[50px] max-w-[956px]">
         Al Brandon is a San Francisco-based <span class="font-glitch"
@@ -23,7 +23,7 @@
           src={headshot} />
       </aside>
     </ScrollEffect>
-    <ScrollEffect offset={0}>
+    <ScrollEffect offset={200}>
       <p
         class="max-lg:text-center lg:text-2xl leading-[30px] lg:leading-[40px] font-syne text-brand-beige xl:max-w-[900px]">
         Whether a corporate event, fundraiser, big or small celebration,

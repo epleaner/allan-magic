@@ -2,7 +2,7 @@
   class="fixed z-50 items-center w-full grid grid-cols-12 gap--x-grid-gutter-mobile md:gap-x-grid-gutter py-4 md:px-page-gutter px-page-gutter-mobile">
   <span class="col-span-10">
     <a
-      href="#"
+      href="#home"
       class="cursor-trigger text-xl md:text-3xl text-brand-teal hover:text-brand-charcoal transition-colors"
       >Illusions of the Mind</a>
   </span>

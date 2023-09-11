@@ -9,6 +9,7 @@
 
 <Scroll>
   <main
+    id="home"
     class="font-migra w-screen min-h-screen grid grid-cols-12 bg-brand-lightGray">
     <Nav />
     <slot />
